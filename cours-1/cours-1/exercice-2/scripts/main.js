@@ -3,3 +3,11 @@
  * 2 - Replacez l’attribut disabled de l’élément <bouton> s’il n’y a aucun caractère dans l’un - ou les deux - élément(s) <input>.
  */
 
+
+let elForm = document.querySelector("[data-js-form]");
+
+new Form(elForm); 
+
+
+
+

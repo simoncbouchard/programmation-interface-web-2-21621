@@ -4,3 +4,10 @@
  * Évidemment, vous aurez à travailler en orienté objet en utilisant la syntaxe des classes ES6.
  */
 
+window.addEventListener("DOMContentLoaded", () => {
+    let elCounters = document.querySelectorAll("[data-js-counter]");
+
+    for (let i = 0, l = elCounters.length; i < l; i++) {
+        new Counter(elCounters[i]);         
+    }
+});

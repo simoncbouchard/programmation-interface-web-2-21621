@@ -6,3 +6,9 @@
  *     Ainsi, vous pourrez limiter la portée du contexte DOM afin de récupérer les éléments nécessaires de chaque formulaire afin de développer son comportement attendu de façon autonome, modulaire et réutilisable.
  */
 
+let elForms = document.querySelectorAll("[data-js-form]");
+for (let i = 0, l = elForms.length; i < l; i++) {
+    new Form(elForms[i]);
+}
+
+
