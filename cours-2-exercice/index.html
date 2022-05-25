@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr_CA">
+<head>
+    <!-- meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Cours 2 | Exercice</title>
+	<meta name="description" content="Exercice du cours 2 du cours 582-31F-MA Programmation d'interface Web 2 : Fondement de la programmation orientée objet (POO) en JavaScript">
+
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
+
+    <!-- scripts -->
+	<script src="./assets/scripts/Calculatrice.js"></script>
+	<script src="./assets/scripts/main.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Cours 2 - Exercice</h1>
+    </header>
+    <main>
+        <div data-js-calculatrice>
+            <form >
+                <div>
+                    <label for="nb1">Nombre 1 : </label>
+                    <input type="text" id="nb1" name="nb1">
+                </div>
+                <div>
+                    <select>
+                        <option value="addition">Addition</option>
+                        <option value="soustraction">Soustraction</option>
+                        <option value="multiplication">Multiplication</option>
+                        <option value="division">Division</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="nb2">Nombre 2 : </label>
+                    <input type="text" id="nb2" name="nb2">
+                </div>
+                <div>
+                    <button data-js-submit>Résultat</button>
+                </div>
+            </form>
+            <div data-js-result></div>
+        </div>
+    </main>
+</body>
+</html>
