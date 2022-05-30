@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main {
+    margin-top: 50px;
+}
+
+div + div,
+div + button,
+input + p,
+p + button {
+    margin-top: 15px;
+}
+
+section + section {
+    margin-top: 50px;
+}
+
+form + div {
+    margin-top: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+p + p {
+    margin-top: 10px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+fieldset {
+    padding: 5vw;
+}
+
+.text--center {
+    text-align: center;
+}
+
+.btn--hidden {
+    display: none;
+}

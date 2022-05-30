@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr_CA">
+<head>
+    <!-- meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Cours 1 | Exercice 1</title>
+	<meta name="description" content="Exercices récapitulatifs cours 1 du cours 582-31F-MA Programmation d'interface Web 2 : Rappel API DOM">
+
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+
+	<!-- script -->
+	<script src="./main.js" defer></script>
+</head>
+<body>
+	<header>
+		<h1>Cours 1 - Exercice 1</h1>
+	</header>
+	
+	<main>
+		<form data-js-form>
+			<input type="text" name="texte" maxlength="10">
+			<p>Il reste <span data-js-input-limit></span> maximum à saisir.</p>
+			<button data-js-submit>Soumettre</button>
+		</form>
+
+		<div>
+			<p data-js-text-value></p>
+			<p data-js-text-length></p>
+		</div>
+	</main>
+</body>
+</html>
