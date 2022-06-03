@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr_CA">
+<head>
+    <!-- meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Cours 3 | Exercice</title>
+	<meta name="description" content="Exercice du cours 3 du cours 582-31F-MA Programmation d'interface Web 2 : prototypes et namespace">
+
+	<!-- styles -->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
+    
+    <!-- scripts -->
+	<script src="./assets/scripts/Personne.js"></script>
+	<script src="./assets/scripts/Conseiller.js"></script>
+	<script src="./assets/scripts/Etudiant.js"></script>
+	<script src="./assets/scripts/Professeur.js"></script>
+	<script src="./assets/scripts/main.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Cours 3 - Exercice</h1>
+    </header>
+	<main>
+		<form>
+			<div>
+				<div>
+					<label for="prenom">Prénom :</label>
+					<input type="text" id="prenom" name="prenom">
+				</div>
+				<div>
+					<label for="nom">Nom :</label>
+					<input type="text" id="nom" name="nom">
+				</div>
+				<div>
+					<select name="statut">
+						<option value="etudiant">Étudiant</option>
+						<option value="professeur">Professeur</option>
+						<option value="conseiller">Conseiller</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="" data-js-details="etudiant">
+				<label for="ecours">Cours :</label>
+				<input type="text" id="ecours" name="ecours">
+			</div>
+
+			<div class="hidden" data-js-details="professeur">
+				<div>
+					<label for="pcours">Cours :</label>
+					<input type="text" id="pcours" name="pcours">
+				</div>
+				<div>
+					<label for="phoraire">Horaire :</label>
+					<input type="text" id="phoraire" name="phoraire">
+				</div>
+				<div>
+					<label for="p-courriel">Courriel :</label>
+					<input type="text" id="pcourriel" name="pcourriel">
+				</div>
+			</div>
+
+			<div class="hidden" data-js-details="conseiller">
+				<label for="cdisponibilites">Disponibilités :</label>
+				<input type="text" id="cdisponibilites" name="cdisponibilites">
+			</div>
+
+			<div>
+				<button>Afficher</button>
+			</div>
+
+		</form>
+
+		<div data-js-result></div>
+	</main>
+</body>
+</html>
