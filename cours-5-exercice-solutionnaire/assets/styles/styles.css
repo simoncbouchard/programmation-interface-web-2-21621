@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main {
+    margin-top: 50px;
+}
+
+section + section {
+    margin-top: 25px;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h3 + p {
+    margin-top: 15px;
+}
