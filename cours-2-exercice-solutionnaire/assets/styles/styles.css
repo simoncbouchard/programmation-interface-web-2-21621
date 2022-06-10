@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 6vw;
+}
+
+main {
+    margin-top: 50px;
+}
+
+div + div {
+    margin-top: 25px;
+}
+
+form + p {
+    margin-top: 50px;
+}
+
+h1 {
+    margin: 0;
+}
