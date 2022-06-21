@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+form div,
+form button,
+p + button {
+    margin-top: 15px;
+}
+
+input + label,
+label + label,
+span + button,
+button + button {
+    margin-left: 15px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+p {
+    margin: 15px 0 0;
+}
+
+.teams {
+    margin-top: 50px;
+}
+
+.team {
+    margin-top: 25px;
+}
+
+.team + .team {
+    margin-top: 50px;
+}
+
+.players {
+    margin-top: 25px; 
+}
+
+.player {
+    margin-left: 25px; 
+}
