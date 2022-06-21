@@ -1,0 +1,80 @@
+<html lang="fr_CA">
+<head>
+    <!-- meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cours 9 | Révision classe ES6</title>
+	<meta name="description" content="Cours 9 du cours 582-31F-MA Programmation d'interface Web 2 : Révision classe ES6">
+
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
+
+    <!-- script -->
+	<script type="module" src="./assets/scripts/main.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Cours 9 - Révision classe ES6</h1>
+	</header>
+	
+    <main>
+
+        <h2>Ligue de garage</h2>
+        
+        <div data-js-league>
+
+            <form>
+                <div>
+                    <label for="nom">Nom : </label>
+                    <input type="text" id="nom-equipe" name="nom-equipe">
+
+                    <label for="nom">Quartier : </label>
+                    <input type="text" id="quartier-equipe" name="quartier-equipe">
+                </div>
+                <button>Ajouter équipe</button>
+            </form>
+
+            <div class="teams" data-js-teams>
+                <h2>Équipes</h2>
+
+                <!-- 
+                /* -- Équipe -- */
+                <div class="team" data-js-team="${team.nom}">
+                    <h3>${team.nom} de ${team.quartier}</h3>
+                    <form>
+                        <div>
+                            <label>Numéro : <input type="text" name="numero-joueur"></label>
+                            <label>Prénom : <input type="text" name="prenom-joueur"></label>
+                            <label>Nom : <input type="text" name="nom-joueur"></label>
+                        </div>
+                        <button>Ajouter joueur</button>
+                    </form>
+
+                    /* -- Joueur -- */
+                    <div class="players" data-js-players>
+                        <div class="player">
+                            <h4>#numero : Prénom Nom</h4>
+                            <p>
+                                <small>Buts : </small><span data-js-goal>0</span>
+                                <button data-js-player-cta="add goal">Ajouter</button>
+                                <button data-js-player-cta="reset goal">Réinitialiser</button>
+                            </p>
+                            <p>
+                                <small>Passes : </small><span data-js-assist>0</span>
+                                <button data-js-player-cta="add assist">Ajouter</button>
+                                <button data-js-player-cta="reset assist">Réinitialiser</button>
+                            </p>
+                            <button data-js-player-cta="injured">Blesser</button>
+                            <button data-js-player-cta="delete">Supprimer</button>
+                        </div>
+                    </div>
+                </div>
+                -->
+    
+            </div>
+        </div>
+    </main>
+</body>
+</html>
