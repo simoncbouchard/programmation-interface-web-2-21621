@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main,
+form + div,
+section {
+    margin-top: 50px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li + li,
+div + div,
+div + button {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: block;
+}
+
+button + button {
+    margin-top: 25px;
+}
