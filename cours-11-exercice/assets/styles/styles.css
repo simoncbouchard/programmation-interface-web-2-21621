@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main,
+table {
+    margin-top: 50px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+select {
+    margin-top: 25px;
+}
+
+table {
+    border: solid 2px black;
+}
+
+td,
+th {
+    border: solid 1px black;
+    padding: 10px 20px;
+    text-align: left;
+}
