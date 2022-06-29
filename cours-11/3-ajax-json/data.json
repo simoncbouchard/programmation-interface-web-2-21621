@@ -1,0 +1,22 @@
+[
+    {
+        "equipe": "Canadien", 
+        "ville": "Verdun" 
+    }, 
+    { 
+        "equipe": "Rangers", 
+        "ville": "Hochelaga"  
+    },
+    { 
+        "equipe": "Red Wings", 
+        "ville": "Plateau" 
+    },
+    { 
+        "equipe": "Avalanche", 
+        "ville": "Ville-Marie"  
+    },
+    { 
+        "equipe": "Maple Leaf", 
+        "ville": "Vont perdre"  
+    }
+]

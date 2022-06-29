@@ -1,0 +1,34 @@
+[
+    {
+        "rouge": [
+            {
+                "region": "Bordeaux", 
+                "cepage": "Cabernet sauvignon, Merlot"
+            }, 
+            { 
+                "region": "Rhône", 
+                "cepage": "Syrah, Grenache, Mourvèdre"
+            },
+            { 
+                "region": "Bourgogne", 
+                "cepage": "Pinot noir, Gamay"  
+            }
+        ]
+    },
+    {
+        "blanc": [
+            {
+                "region": "Bordeaux", 
+                "cepage": "Sauvignon blanc" 
+            }, 
+            { 
+                "region": "Rhône", 
+                "cepage": "Viognier, Marsanne, Roussanne" 
+            },
+            { 
+                "region": "Bourgogne", 
+                "cepage": "Chardonnay" 
+            }
+        ]
+    }
+]

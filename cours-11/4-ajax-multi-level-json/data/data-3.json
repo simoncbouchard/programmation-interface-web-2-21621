@@ -1,0 +1,74 @@
+[
+    {
+        "france": [
+            {
+                "rouge": [
+                    {
+                        "region": "Bordeaux", 
+                        "cepage": "Cabernet sauvignon, Merlot"
+                    }, 
+                    { 
+                        "region": "Rhône", 
+                        "cepage": "Syrah, Grenache, Mourvèdre"
+                    },
+                    { 
+                        "region": "Bourgogne", 
+                        "cepage": "Pinot noir, Gamay"  
+                    }
+                ]
+            },
+            {
+                "blanc": [
+                    {
+                        "region": "Bordeaux", 
+                        "cepage": "Sauvignon blanc" 
+                    }, 
+                    { 
+                        "region": "Rhône", 
+                        "cepage": "Viognier, Marsanne, Roussanne" 
+                    },
+                    { 
+                        "region": "Bourgogne", 
+                        "cepage": "Chardonnay" 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "italie": [
+            {
+                "rouge": [
+                    {
+                        "region": "Toscane", 
+                        "cepage": "Sangiovese, Cabernet sauvignon" 
+                    }, 
+                    { 
+                        "region": "Vénétie", 
+                        "cepage": "Valpolicella" 
+                    },
+                    { 
+                        "region": "Piémont", 
+                        "cepage": "Nebbiolo, Barbera" 
+                    }
+                ]
+            },
+            {
+                "blanc": [
+                    {
+                        "region": "Bordeaux", 
+                        "cepage": "Vernaccia" 
+                    }, 
+                    { 
+                        "region": "Véntie", 
+                        "cepage": "Pinot grigio" 
+                    },
+                    { 
+                        "region": "Piémont", 
+                        "cepage": "Moscato" 
+                    }
+                ]
+            }
+        ]
+    }
+]
