@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main,
+form,
+table,
+select + div,
+button + div {
+    margin-top: 50px;
+}
+
+div + div {
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+span + button,
+input + button {
+    margin-left: 10px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sent {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.ligue {
+    display: flex;
+}
+
+.ligue__form,
+.ligue__joueurs {
+    margin-top: 0;
+    padding: 0;
+    width: 50%;
+}

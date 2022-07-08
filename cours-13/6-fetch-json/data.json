@@ -1,0 +1,14 @@
+[
+    {
+        "equipe": "Canadien", 
+        "ville": "Verdun" 
+    }, 
+    { 
+        "equipe": "Rangers", 
+        "ville": "Hochelaga"  
+    },
+    { 
+        "equipe": "Red Wings", 
+        "ville": "Plateau" 
+    }
+]
