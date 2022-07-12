@@ -1,0 +1,18 @@
+[
+    {
+        "region": "Bordeaux", 
+        "cepage": "Cabernet sauvignon, Merlot" 
+    }, 
+    { 
+        "region": "Rhône", 
+        "cepage": "Syrah, Grenache, Mourvèdre" 
+    },
+    { 
+        "region": "Bourgogne", 
+        "cepage": "Pinot noir, Gamay" 
+    },
+    { 
+        "region": "Sud Ouest", 
+        "cepage": "Syrah, Grenache, Mourvèdre" 
+    }
+]

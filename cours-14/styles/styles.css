@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main,
+form,
+form + div,
+select + div,
+div + div {
+    margin-top: 50px;
+}
+
+ul + ul {
+    margin-top: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+span + button,
+input + button {
+    margin-left: 10px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a + a {
+    margin-left: 15px;
+}
+
+.players-list {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity .3s ease,
+                transform .3s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50px);
+}
+
+.warning {
+    background-color: #161616;
+    border-radius: 5px;
+    color: white;
+    left: 50%;
+    padding: 15px 25px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
