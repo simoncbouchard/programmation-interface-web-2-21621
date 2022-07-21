@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main,
+form + ul,
+button + ul {
+    margin-top: 50px;
+}
+
+div + div {
+    margin-top: 20px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h2 + div,
+h2 + p {
+    margin-top: 25px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Exemple 2 */
+
+.user {
+    display: flex;
+}
+
+.user__form,
+.user__details {
+    margin: 0;
+    width: 50%;
+}
+
+.sent {
+    opacity: .5;
+    pointer-events: none;
+}

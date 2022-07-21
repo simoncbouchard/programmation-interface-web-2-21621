@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr_CA">
+<head>
+    <!-- meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Cours 16 | Contenu d'un formulaire | Balise template</title>
+	<meta name="description" content="Cours 16 du cours 582-31F-MA Programmation d'interface Web 2 : Clone et insertion avec la balise template">
+
+	<!-- styles -->
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    
+	<!-- scripts -->
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Cours 16 - Balise template - contenu d'un formulaire</h1>
+	</header>
+	
+    <main>
+
+		<div class="user">
+			<template data-js-details-template>
+				<div data-js-info="{{prenom}}">
+					<h2>Vos informations sont :</h2>
+					<p><small>Prénom : </small>{{prenom}}</p>
+					<p><small>Nom : </small>{{nom}}</p>
+					<p><small>Courriel : </small>{{courriel}}</p>
+				</div>
+			</template>
+
+			<form class="user__form" data-js-form>
+				<h2>Vos informations</h2>
+				<div>
+					<label for="prenom">Prénom :</label>
+					<input type="text" id="prenom" name="prenom">
+				</div>
+				<div>
+					<label for="nom">Nom :</label>
+					<input type="text" id="nom" name="nom">
+				</div>
+				<div>
+					<label for="courriel">Courriel :</label>
+					<input type="text" id="courriel" name="courriel">
+				</div>
+				<div>
+					<button data-js-submit>Soumettre</button>
+				</div>
+			</form>
+
+
+			<ul class="user__details" data-js-details></ul>
+		</div>
+		
+	</main>
+</body>
+</html>
